@@ -54,10 +54,6 @@ function App() {
               <FontAwesomeIcon icon={faSearchDollar} className="app-icon" />
               <h1>How much is my LP worth?</h1>
             </div>
-            {wa.web3 && (
-              <ConnectWallet callback={setAddress}>Connect</ConnectWallet>
-            )}
-          </div>
           {address || !wa.web3 ? (
             <>
               {!wa.web3 && (
