@@ -87,13 +87,7 @@ function App() {
                 ) : (
                   <p>Fill contract addresses above to see details here.</p>
                 )}
-              </div>
-            </>
-          ) : (
-            <p className="app-connect-wallet-first">
-              Connect wallet to use the app.
-            </p>
-          )}
+                </div>
           <Footer showDonate={address !== ""} />
         </div>
       </div>
