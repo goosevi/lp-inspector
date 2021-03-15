@@ -23,7 +23,6 @@ function getLibrary(provider: any, connector?: any) {
 const wa: any = window;
 
 function App() {
-  const [contractAddress, setContractAddress] = useState("");
   const [routercontractAddress, setRouterContractAddress] = useState(
     PANCAKE_ROUTER
   );
